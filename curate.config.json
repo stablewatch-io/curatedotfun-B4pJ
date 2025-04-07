@@ -1,6 +1,6 @@
 {
   "global": {
-    "botId": "curatedotfun",
+    "botId": "Peter1040732",
     "defaultStatus": "pending",
     "maxSubmissionsPerUser": 100,
     "blacklist": {
@@ -56,7 +56,8 @@
             "potlock_",
             "bbeats1",
             "elliot_braem",
-            "potlock_intern"
+            "potlock_intern",
+            "szacilowski"
           ]
         }
       },
