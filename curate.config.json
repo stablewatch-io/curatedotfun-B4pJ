@@ -103,41 +103,6 @@
                 "botToken": "{TELEGRAM_BOT_TOKEN}",
                 "channelId": "@test_curate"
               }
-            },
-            {
-              "transform": [
-                {
-                  "plugin": "@curatedotfun/object-transform",
-                  "config": {
-                    "mappings": {
-                      "title": "{{title}}",
-                      "content": "<h2>{{title}}</h2><p>{{summary}}</p>",
-                      "description": "{{summary}}",
-                      "link": "{{source}}",
-                      "publishedAt": "{{createdAt}}",
-                      "author": {
-                        "name": "{{username}}",
-                        "link": "https://x.com/{{author}}"
-                      },
-                      "categories": ["{{tags}}"],
-                      "source": {
-                        "url": "{{source}}",
-                        "title": "twitter"
-                      }
-                    }
-                  }
-                }
-              ],
-              "plugin": "@curatedotfun/rss",
-              "config": {
-                "serviceUrl": "https://stablecoins-rss.up.railway.app",
-                "apiSecret": "{STABLECOINS_RSS_API_SECRET}",
-                "feedConfig": {
-                  "title": "Stablecoins",
-                  "description": "News about the Stablecoins Ecoystem",
-                  "siteUrl": "https://stablecoins.press"
-                }
-              }
             }
           ]
         }
