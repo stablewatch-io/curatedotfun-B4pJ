@@ -2166,7 +2166,7 @@
       "description": "News about the Stablecoins Ecoystem",
       "moderation": {
         "approvers": {
-          "twitter": ["stablewatchHQ", "Piotr_Saczuk"]
+          "twitter": ["stablewatchHQ", "Piotr_Saczuk", "szacilowski"]
         }
       },
       "outputs": {
@@ -2223,7 +2223,7 @@
               "plugin": "@curatedotfun/telegram",
               "config": {
                 "botToken": "{TELEGRAM_BOT_TOKEN}",
-                "channelId": "@stablecoinspress"
+                "channelId": "@test_curate"
               }
             },
             {
@@ -2238,7 +2238,7 @@
               "plugin": "@curatedotfun/telegram",
               "config": {
                 "botToken": "{TELEGRAM_BOT_TOKEN}",
-                "channelId": "@stablecoinspress"
+                "channelId": "@test_curate"
               }
             },
             {
