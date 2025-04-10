@@ -1,6 +1,6 @@
 {
   "global": {
-    "botId": "Peter1040732",
+    "botId": "stablewatchHQ",
     "defaultStatus": "pending",
     "maxSubmissionsPerUser": 100,
     "blacklist": {
@@ -44,7 +44,7 @@
       "description": "News about the Stablecoins Ecoystem",
       "moderation": {
         "approvers": {
-          "twitter": ["stablewatchHQ", "Piotr_Saczuk", "szacilowski", "kodziak"]
+          "twitter": ["stablewatchHQ", "Piotr_Saczuk"]
         }
       },
       "outputs": {
@@ -101,7 +101,7 @@
               "plugin": "@curatedotfun/telegram",
               "config": {
                 "botToken": "{TELEGRAM_BOT_TOKEN}",
-                "channelId": "@test_curate"
+                "channelId": "@stablewatch"
               }
             }
           ]
