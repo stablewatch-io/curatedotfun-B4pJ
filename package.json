@@ -23,5 +23,11 @@
     "db:migrate": "cd backend && pnpm db:migrate",
     "prepare": "corepack enable"
   },
-  "type": "module"
+  "type": "module",
+  "pnpm": {
+    "overrides": {
+      "shell-quote": "^1.8.4",
+      "form-data": "^4.0.4"
+    }
+  }
 }

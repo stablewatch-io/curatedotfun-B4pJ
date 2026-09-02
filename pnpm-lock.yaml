@@ -4,6 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  shell-quote: ^1.8.4
+  form-data: ^4.0.4
+
 importers:
 
   .:
@@ -19,7 +23,7 @@ importers:
         version: 3.5.3
       turbo:
         specifier: latest
-        version: 2.5.0
+        version: 2.10.12
 
   backend:
     dependencies:
@@ -343,11 +347,11 @@ packages:
 
   '@esbuild-kit/core-utils@3.3.2':
     resolution: {integrity: sha512-sPRAnw9CdSsRmEtnsl2WXWdyquogVpB3yZ3dgwJfe8zrOzTsV7cJvmwrKVa+0ma5BoiGJ+BoqkMvawbayKUsqQ==}
-    deprecated: 'Merged into tsx: https://tsx.is'
+    deprecated: 'Merged into tsx: https://tsx.hirok.io'
 
   '@esbuild-kit/esm-loader@2.6.5':
     resolution: {integrity: sha512-FxEMIkJKnodyA1OaCUoEvbYRkoZlLZ4d/eXFu9Fh8CbBBgP5EmZxrfTRyN0qpXZ4vOvqnE5YdRdcrmUUXuU+dA==}
-    deprecated: 'Merged into tsx: https://tsx.is'
+    deprecated: 'Merged into tsx: https://tsx.hirok.io'
 
   '@esbuild/aix-ppc64@0.19.12':
     resolution: {integrity: sha512-bmoCYyWdEL3wDQIVbcyzRyeKLgk2WtWLTWz1ZIAZF/EGbNOwSA6ew3PftJ1PqMiOOGu0OyFMzG53L0zqIpPeNA==}
@@ -1218,6 +1222,7 @@ packages:
 
   '@mswjs/data@0.16.2':
     resolution: {integrity: sha512-/C0d/PBcJyQJokUhcjO4HiZPc67hzllKlRtD1XELygl2t991/ATAAQJVcStn4YtVALsNodruzOHT0JIvgr0hnA==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   '@mswjs/interceptors@0.37.6':
     resolution: {integrity: sha512-wK+5pLK5XFmgtH3aQ2YVvA3HohS3xqV/OxuVOdNx9Wpnz7VE/fnC+e1A7ln6LFYeck7gOJ/dsZV6OLplOtAJ2w==}
@@ -1643,6 +1648,36 @@ packages:
     resolution: {integrity: sha512-XLUh1Py3AftcERrxkxC5Y5m5mfllRH3YR6YVlyjFgI2Tc2Ssy2NKmQFQIafoxfW459UJ8Dn81nWKETEIJifE4g==}
     engines: {node: '>=12'}
 
+  '@turbo/darwin-64@2.10.12':
+    resolution: {integrity: sha512-9nKgKoF6ZOUsM+or0OtNf+TTJSfGvDNP7ZFv/ZGWVwOSCkumyctQiTeHwB4UNljHTnC41AqylgbunLDHoccNrA==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@turbo/darwin-arm64@2.10.12':
+    resolution: {integrity: sha512-H4Elb1jqTZVeIC9bbcNwjSzemZ6RegoTOVHeuV5Osirt2Z8UguTyisMEkvZjPVZgMeN9J4ERZBFad40tFnkb7w==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@turbo/linux-64@2.10.12':
+    resolution: {integrity: sha512-lr7KIotukvjZwEXiFSYAeOH3BWzjFVBbSzTbv0fuGFsNukYyH0+g1hB5ecqnJkgkYU+KHEMG1edOhnjiKON1wQ==}
+    cpu: [x64]
+    os: [android, linux]
+
+  '@turbo/linux-arm64@2.10.12':
+    resolution: {integrity: sha512-f0pZDTtvzB5SuNwuXBaKbZHUCMCukgc8nMlHEuvLmj91Fzec+MEbr3cAvGNor5htEDqZnO6Lxt9N/GPI/77oGA==}
+    cpu: [arm64]
+    os: [android, linux]
+
+  '@turbo/windows-64@2.10.12':
+    resolution: {integrity: sha512-SDOueJRjS/QcykWf2KCRtTLmIl5YMKsLbXkXQGhDwcTXvKXZiS5ih5lBl/gkwZIpYFjqA/rAlfMzlAFcVHNe0g==}
+    cpu: [x64]
+    os: [win32]
+
+  '@turbo/windows-arm64@2.10.12':
+    resolution: {integrity: sha512-0i0mVUa4kKk+/B3RwEwPMf9CB+T7ul56hn5FFHNA4VUNTOoLBEd6aNf3FaKfCatDNZ6cicCEf6if9QUTVyzzcA==}
+    cpu: [arm64]
+    os: [win32]
+
   '@types/async-retry@1.4.9':
     resolution: {integrity: sha512-s1ciZQJzRh3708X/m3vPExr5KJlzlZJvXsKpbtE2luqNcbROr64qU+3KpJsYHqWMeaxI839OvXf9PrUSw1Xtyg==}
 
@@ -1908,6 +1943,7 @@ packages:
 
   agent-twitter-client@0.0.16:
     resolution: {integrity: sha512-Clgb/N2LXoGMlId6GDUaaR05eJ0PqSifM6wikl/FiQ2+3+6I2ZhZB7KRulc8R4xvYFe6h0wNWe6FZiF48r124w==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   ajv-formats@2.1.1:
     resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
@@ -2213,6 +2249,7 @@ packages:
   cron-parser@4.9.0:
     resolution: {integrity: sha512-p0SaNjrHOnQeR8/VnfGbmg9te2kfyYSQ7Sc/j/6DtPL3JQvKxmjO9TSjNFpujqV3vEYYBvNNvXSxzyksBWAx1Q==}
     engines: {node: '>=12.0.0'}
+    deprecated: v4 is no longer maintained, upgrade to v5
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -2563,6 +2600,7 @@ packages:
   eslint@9.24.0:
     resolution: {integrity: sha512-eh/jxIEJyZrvbWRe4XuVclLPDYSYYYgLy5zXGGxD6j8zjSAxFEzI2fL/8xNq6O2yKqVt+eF2YhV+hxjV6UKXwQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -2702,8 +2740,8 @@ packages:
     resolution: {integrity: sha512-gIXjKqtFuWEgzFRJA9WCQeSJLZDjgJUOMCMzxtvFq/37KojM1BFGufqsCy0r4qSQmYLsZYMeyRqzIWOMup03sw==}
     engines: {node: '>=14'}
 
-  form-data@4.0.2:
-    resolution: {integrity: sha512-hGfm/slu0ZabnNt4oaRZ6uREyfCj6P4fT/n6A1rGV+Z0VdGXjfOhVUpkn6qVQONHGIFwmveGXyDs75+nr6FM8w==}
+  form-data@4.0.6:
+    resolution: {integrity: sha512-vKatAh4SlVfgbv+YtmhiRjhEMJsYpsG1Y2rMQtR+SVSbytsSD1YGzDIcrAJmdFec88u/+VoGmxnl+80gL1tRCQ==}
     engines: {node: '>= 6'}
 
   formdata-polyfill@4.0.10:
@@ -2782,6 +2820,7 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   global-modules@1.0.0:
@@ -2847,6 +2886,10 @@ packages:
 
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
+    engines: {node: '>= 0.4'}
+
+  hasown@2.0.4:
+    resolution: {integrity: sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==}
     engines: {node: '>= 0.4'}
 
   headers-polyfill@3.3.0:
@@ -3341,6 +3384,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
@@ -3931,8 +3975,8 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
 
-  shell-quote@1.8.2:
-    resolution: {integrity: sha512-AzqKpGKjrj7EM6rKVQEPpB288oCfnrEIuyoT9cyF4nmGa7V8Zk6f7RRqYisX8X9m+Q7bd632aZW4ky7EhbQztA==}
+  shell-quote@1.10.0:
+    resolution: {integrity: sha512-w1aiOKwKuRgtwAReIIj89puqg+I7GvX4IbLrvmhXbzQsj1+Zwi4VO3+fa6ZF91TWSjIxoEkKnMeHcLEODK5ZXA==}
     engines: {node: '>= 0.4'}
 
   side-channel-list@1.0.0:
@@ -4174,38 +4218,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  turbo-darwin-64@2.5.0:
-    resolution: {integrity: sha512-fP1hhI9zY8hv0idym3hAaXdPi80TLovmGmgZFocVAykFtOxF+GlfIgM/l4iLAV9ObIO4SUXPVWHeBZQQ+Hpjag==}
-    cpu: [x64]
-    os: [darwin]
-
-  turbo-darwin-arm64@2.5.0:
-    resolution: {integrity: sha512-p9sYq7kXH7qeJwIQE86cOWv/xNqvow846l6c/qWc26Ib1ci5W7V0sI5thsrP3eH+VA0d+SHalTKg5SQXgNQBWA==}
-    cpu: [arm64]
-    os: [darwin]
-
-  turbo-linux-64@2.5.0:
-    resolution: {integrity: sha512-1iEln2GWiF3iPPPS1HQJT6ZCFXynJPd89gs9SkggH2EJsj3eRUSVMmMC8y6d7bBbhBFsiGGazwFIYrI12zs6uQ==}
-    cpu: [x64]
-    os: [linux]
-
-  turbo-linux-arm64@2.5.0:
-    resolution: {integrity: sha512-bKBcbvuQHmsX116KcxHJuAcppiiBOfivOObh2O5aXNER6mce7YDDQJy00xQQNp1DhEfcSV2uOsvb3O3nN2cbcA==}
-    cpu: [arm64]
-    os: [linux]
-
-  turbo-windows-64@2.5.0:
-    resolution: {integrity: sha512-9BCo8oQ7BO7J0K913Czbc3tw8QwLqn2nTe4E47k6aVYkM12ASTScweXPTuaPFP5iYXAT6z5Dsniw704Ixa5eGg==}
-    cpu: [x64]
-    os: [win32]
-
-  turbo-windows-arm64@2.5.0:
-    resolution: {integrity: sha512-OUHCV+ueXa3UzfZ4co/ueIHgeq9B2K48pZwIxKSm5VaLVuv8M13MhM7unukW09g++dpdrrE1w4IOVgxKZ0/exg==}
-    cpu: [arm64]
-    os: [win32]
-
-  turbo@2.5.0:
-    resolution: {integrity: sha512-PvSRruOsitjy6qdqwIIyolv99+fEn57gP6gn4zhsHTEcCYgXPhv6BAxzAjleS8XKpo+Y582vTTA9nuqYDmbRuA==}
+  turbo@2.10.12:
+    resolution: {integrity: sha512-AswgMPnpOoaVZHrrSBejETzEbuIA69OVGwfkHwfrY0A23VjWXBANzgq9+OymWOHAIArB7D1+1z498WY8fGg1Jw==}
     hasBin: true
 
   twitter-api-v2@1.22.0:
@@ -4292,6 +4306,7 @@ packages:
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   vary@1.1.2:
@@ -5792,6 +5807,24 @@ snapshots:
 
   '@tanstack/virtual-file-routes@1.115.0': {}
 
+  '@turbo/darwin-64@2.10.12':
+    optional: true
+
+  '@turbo/darwin-arm64@2.10.12':
+    optional: true
+
+  '@turbo/linux-64@2.10.12':
+    optional: true
+
+  '@turbo/linux-arm64@2.10.12':
+    optional: true
+
+  '@turbo/windows-64@2.10.12':
+    optional: true
+
+  '@turbo/windows-arm64@2.10.12':
+    optional: true
+
   '@types/async-retry@1.4.9':
     dependencies:
       '@types/retry': 0.12.5
@@ -5891,7 +5924,7 @@ snapshots:
   '@types/node-fetch@2.6.12':
     dependencies:
       '@types/node': 22.14.0
-      form-data: 4.0.2
+      form-data: 4.0.6
 
   '@types/node-forge@1.3.11':
     dependencies:
@@ -6237,7 +6270,7 @@ snapshots:
   axios@1.8.4:
     dependencies:
       follow-redirects: 1.15.9
-      form-data: 4.0.2
+      form-data: 4.0.6
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -6431,7 +6464,7 @@ snapshots:
       chalk: 4.1.2
       lodash: 4.17.21
       rxjs: 7.8.2
-      shell-quote: 1.8.2
+      shell-quote: 1.10.0
       supports-color: 8.1.1
       tree-kill: 1.2.2
       yargs: 17.7.2
@@ -6623,7 +6656,7 @@ snapshots:
       es-errors: 1.3.0
       get-intrinsic: 1.3.0
       has-tostringtag: 1.0.2
-      hasown: 2.0.2
+      hasown: 2.0.4
 
   esbuild-register@3.6.0(esbuild@0.19.12):
     dependencies:
@@ -6968,11 +7001,12 @@ snapshots:
       cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
-  form-data@4.0.2:
+  form-data@4.0.6:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       es-set-tostringtag: 2.1.0
+      hasown: 2.0.4
       mime-types: 2.1.35
 
   formdata-polyfill@4.0.10:
@@ -7009,7 +7043,7 @@ snapshots:
       debug: 4.4.0
       env-paths: 3.0.0
       semver: 7.7.1
-      shell-quote: 1.8.2
+      shell-quote: 1.10.0
       which: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -7114,6 +7148,10 @@ snapshots:
       has-symbols: 1.1.0
 
   hasown@2.0.2:
+    dependencies:
+      function-bind: 1.1.2
+
+  hasown@2.0.4:
     dependencies:
       function-bind: 1.1.2
 
@@ -7409,7 +7447,7 @@ snapshots:
   launch-editor@2.10.0:
     dependencies:
       picocolors: 1.1.1
-      shell-quote: 1.8.2
+      shell-quote: 1.10.0
 
   levn@0.4.1:
     dependencies:
@@ -8189,7 +8227,7 @@ snapshots:
 
   shebang-regex@3.0.0: {}
 
-  shell-quote@1.8.2: {}
+  shell-quote@1.10.0: {}
 
   side-channel-list@1.0.0:
     dependencies:
@@ -8474,32 +8512,14 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  turbo-darwin-64@2.5.0:
-    optional: true
-
-  turbo-darwin-arm64@2.5.0:
-    optional: true
-
-  turbo-linux-64@2.5.0:
-    optional: true
-
-  turbo-linux-arm64@2.5.0:
-    optional: true
-
-  turbo-windows-64@2.5.0:
-    optional: true
-
-  turbo-windows-arm64@2.5.0:
-    optional: true
-
-  turbo@2.5.0:
+  turbo@2.10.12:
     optionalDependencies:
-      turbo-darwin-64: 2.5.0
-      turbo-darwin-arm64: 2.5.0
-      turbo-linux-64: 2.5.0
-      turbo-linux-arm64: 2.5.0
-      turbo-windows-64: 2.5.0
-      turbo-windows-arm64: 2.5.0
+      '@turbo/darwin-64': 2.10.12
+      '@turbo/darwin-arm64': 2.10.12
+      '@turbo/linux-64': 2.10.12
+      '@turbo/linux-arm64': 2.10.12
+      '@turbo/windows-64': 2.10.12
+      '@turbo/windows-arm64': 2.10.12
 
   twitter-api-v2@1.22.0: {}
 
